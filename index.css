@@ -1,0 +1,60 @@
+.itemnav {
+  padding: 0.1%;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 38rem;
+  height: 5rem;
+  margin: 10px;
+  border-radius: 15px; }
+
+.itemnav ul {
+  list-style: none;
+  text-align: center;
+  margin: 15px;
+  margin-left: -30px; }
+
+.itemnav ul li {
+  display: inline-block;
+  padding: 5px 5px;
+  font-family: 'Baloo Paaji 2', cursive;
+  font-size: 20px;
+  border: 2px solid;
+  border-radius: 20px;
+  background-color: #50E3C2; }
+
+.itemnav ul li a {
+  text-decoration: none;
+  color: #0e0000dd; }
+
+.itemnav ul i {
+  border: 2px solid #50E3C2;
+  font-size: 16px;
+  margin: 4.6px 2px;
+  border-radius: 10px;
+  padding: 7px; }
+
+input {
+  border: 2px solid #50E3C2;
+  border-radius: 10px;
+  padding: 5px; }
+
+input:focus {
+  outline: none; }
+
+.itemshow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 38rem;
+  height: 30rem;
+  margin: 10px;
+  border-radius: 15px; }
+
+.Purchasebox {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 38rem;
+  margin-left: 40rem;
+  margin-top: -36rem;
+  height: 35rem;
+  border-radius: 15px; }
+
+.listbox {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }

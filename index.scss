@@ -1,0 +1,73 @@
+$boxshadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+$boxwidth :38rem;
+$boxradius:15px;
+.itemnav {
+    padding: 0.1%;
+    text-decoration: none;
+    box-shadow: $boxshadow;
+    width: $boxwidth;
+    height: 5rem;
+    margin: 10px;
+    border-radius: $boxradius;
+}
+
+.itemnav ul {
+    list-style: none;
+    text-align: center;
+    margin: 15px;
+    margin-left: -30px;
+}
+
+.itemnav ul li {
+    display: inline-block;
+    padding: 5px 5px;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: #50E3C2;
+}
+
+.itemnav ul li a {
+    text-decoration: none;
+    color: #0e0000dd;
+}
+
+.itemnav ul i {
+    border: 2px solid #50E3C2;
+    font-size: 16px;
+    margin: 4.6px 2px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+input {
+    border: 2px solid #50E3C2;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.itemshow {
+    box-shadow: $boxshadow;
+    width: $boxwidth;
+    height: 30rem;
+    margin: 10px;
+    border-radius: $boxradius;
+}
+
+.Purchasebox {
+    box-shadow: $boxshadow;
+    width: $boxwidth;
+    margin-left: 40rem;
+    margin-top: -36rem;
+    height: 35rem;
+    border-radius: $boxradius;
+}
+
+.listbox {
+    box-shadow: $boxshadow;
+}
